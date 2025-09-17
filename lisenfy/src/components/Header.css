@@ -19,3 +19,13 @@
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
+.menu{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 15px;
+}
+.blockMenu{
+    display: flex;
+    flex-direction: row;
+}

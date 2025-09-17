@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './App.css';
 import Header from './components/Header'; 
 import Track from './components/Track';
-// Создания главного компонента
+// Созданиe главного компонента
 function App(){
   const [tracks, setTracks] = useState([
     {
@@ -35,7 +35,7 @@ function App(){
       {tracks.map(track => (
         <Track 
           key={track.id}
-          // key помогает Reacty отслеживать елементы списка
+          // key помогает Reacty отслеживать элементы списка
           title={track.title}
           artist={track.artist}
           album={track.album}

@@ -13,6 +13,11 @@ function Header(){
     return(
         <header className="header">
             <div className="logo">{websiteTitle}</div>
+            <div className='blockMenu'>
+                <p className='menu'>Меню</p>
+                <p className='menu'>Меню</p>
+                <p className='menu'>Меню</p>
+            </div>
             <button className="login-btn" onClick={handleLoginClick}>
                 {isLoggedIn ? 'Выйти': 'Войти'}
             </button>
